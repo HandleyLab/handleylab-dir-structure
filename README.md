@@ -1,6 +1,5 @@
 I'll create a more sparse version with fewer emojis, focusing only on the main sections and categories:
 
-```markdown
 # 🧪 Lab Directory Structure
 
 * **Lab_Root/**
