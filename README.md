@@ -123,6 +123,3 @@ Administrative materials including grants, protocols, and meeting notes.
 - **Onboarding documents**: Create guides for new lab members
 - **Compute resources**: Document procedures for utilizing cluster/cloud resources
 - **Collaboration guidelines**: Establish protocols for code sharing and authorship
-```
-
-This version uses emojis only for main section headers and a few key categories, making the document cleaner while still providing visual cues for the most important elements.
