@@ -1,8 +1,3 @@
-# handleylab-dir-structure
-Directory structure and best practices for lab project files
-
-# Lab Directory Structure
-
 # Lab Directory Structure
 
 * **Lab_Root/**
@@ -27,7 +22,7 @@ Directory structure and best practices for lab project files
   * **People/**
     * LastName_FirstName/
     * Smith_Jane/
-    * Patel_Raj/
+    * Smith_John/
     * ...
   * **Resources/**
     * references/
@@ -42,8 +37,8 @@ Directory structure and best practices for lab project files
       * Project_Name_1_YYYY/
       * Project_Name_2_YYYY/
     * **Alumni/**
-      * Johnson_Sarah_YYYY-YYYY/
-      * Zhang_Wei_YYYY-YYYY/
+      * Wang_Dave_YYYY-YYYY/
+      * Virgin_Skip_YYYY-YYYY/
       * ...
 
 ```markdown
