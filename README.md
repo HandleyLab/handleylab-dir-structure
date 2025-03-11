@@ -1,7 +1,10 @@
-# Lab Directory Structure
+I'll create a more sparse version with fewer emojis, focusing only on the main sections and categories:
+
+```markdown
+# 🧪 Lab Directory Structure
 
 * **Lab_Root/**
-  * **Projects/**
+  * **Projects/** 📊
     * **Project_Name_1/**
       * **data/**
         * raw/
@@ -19,7 +22,7 @@
       * README.md
     * **Project_Name_2/**
       * ...
-  * **People/**
+  * **People/** 👥
     * LastName_FirstName/
     * Smith_Jane/
     * Smith_John/
@@ -28,11 +31,11 @@
     * references/
     * databases/
     * standard_datasets/
-  * **Admin/**
+  * **Admin/** 📋
     * grants/
     * protocols/
     * meetings/
-  * **Archive/**
+  * **Archive/** 🗃️
     * **Archived_Projects/**
       * Project_Name_1_YYYY/
       * Project_Name_2_YYYY/
@@ -43,23 +46,23 @@
 ---
 ## Directory Explanations
 
-### Projects
+### Projects 🔬
 Contains all active research projects, each with standardized subdirectories for data, code, results, and documentation.
 
-### People
+### People 👥
 Individual directories for all current lab members.
 
 ### Resources
 Shared resources used across multiple projects including references, databases, and standard datasets.
 
-### Admin
+### Admin 📋
 Administrative materials including grants, protocols, and meeting notes.
 
-### Archive
+### Archive 🗃️
 - **Archived_Projects**: Completed projects with year of completion
 - **Alumni**: Past lab members with their tenure dates
 ---
-# File Management Best Practices
+# File Management Best Practices 📋
 
 ## Naming Conventions
 
@@ -69,7 +72,7 @@ Administrative materials including grants, protocols, and meeting notes.
 - **Version numbers**: Include version numbers (v1, v2.3) when applicable
 - **Descriptive names**: Files should be self-descriptive without being excessively long
 
-## Data Management
+## Data Management 💾
 
 - **Raw data is sacred**: Never modify raw data; always create processed copies
 - **Data provenance**: Document the source of all datasets and preprocessing steps
@@ -77,7 +80,7 @@ Administrative materials including grants, protocols, and meeting notes.
 - **Large files**: Use Git LFS (Large File Storage) for files >100MB. HTCF LFS is for large local data, and Harvard Dataverse is for external hosting.
 - **Data validation**: Implement checksums to verify data integrity
   
-## GitHub Integration
+## GitHub Integration 🐙
 
 - **Repository per project**: Create a separate repository for each major project
 - **Branching strategy**:
@@ -96,14 +99,14 @@ Administrative materials including grants, protocols, and meeting notes.
 - **GitHub Packages**: For storing and sharing lab-developed packages
 - **Continuous Integration**: Automatically test code on push
 
-## Code Organization
+## Code Organization 💻
 
 - **Modular code**: Break code into logical, reusable components
 - **Script headers**: Include purpose, author, date, and usage examples in comments
 - **Requirements**: Include environment specifications (requirements.txt, environment.yml)
 - **Documentation**: Document functions, parameters, and expected outputs
 
-## Reproducibility
+## Reproducibility ♻️
 
 - **Environment management**: Use conda or Docker to ensure reproducibility
 - **Seed values**: Set and document random seeds
@@ -121,7 +124,6 @@ Administrative materials including grants, protocols, and meeting notes.
 - **Onboarding documents**: Create guides for new lab members
 - **Compute resources**: Document procedures for utilizing cluster/cloud resources
 - **Collaboration guidelines**: Establish protocols for code sharing and authorship
+```
 
-
-
-
+This version uses emojis only for main section headers and a few key categories, making the document cleaner while still providing visual cues for the most important elements.
