@@ -76,7 +76,7 @@ Administrative materials including grants, protocols, and meeting notes.
 - **Metadata**: Create metadata files (in YAML or JSON) to describe datasets
 - **Large files**: Use Git LFS (Large File Storage) for files >100MB. HTCF LFS is for large local data, and Harvard Dataverse is for external hosting.
 - **Data validation**: Implement checksums to verify data integrity
-- 
+  
 ## GitHub Integration
 
 - **Repository per project**: Create a separate repository for each major project
