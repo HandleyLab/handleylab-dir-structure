@@ -41,7 +41,6 @@
       * Virgin_Skip_YYYY-YYYY/
       * ...
 
-```markdown
 ## Directory Explanations
 
 ### Projects
