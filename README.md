@@ -63,7 +63,7 @@ Administrative materials including grants, protocols, and meeting notes.
 
 ## Naming Conventions
 
-- **Be consistent**: Use snake_case or kebab-case consistently. CamelCase should be avoided, but if used should be consistent
+- **Be consistent**: Use snake_case or kebab-case consistently. CamelCase should be avoided
 - **Avoid spaces**: Replace spaces with underscores or hyphens
 - **Include dates**: Use ISO format (YYYY-MM-DD) when including dates
 - **Version numbers**: Include version numbers (v1, v2.3) when applicable
@@ -72,8 +72,7 @@ Administrative materials including grants, protocols, and meeting notes.
 ## Data Management 💾
 
 - **Raw data is sacred**: Never modify raw data; always create processed copies
-- **Data provenance**: Document the source of all datasets and preprocessing steps
-- **Metadata**: Create metadata files (in YAML or JSON) to describe datasets
+- **Data provenance**: Document the source of all datasets and preprocessing steps, preferably using an RMarkdown or Quarto document
 - **Large files**: Use Git LFS (Large File Storage) for files >100MB. HTCF LFS is for large local data, and Harvard Dataverse is for external hosting.
 - **Data validation**: Implement checksums to verify data integrity
   
@@ -105,18 +104,12 @@ Administrative materials including grants, protocols, and meeting notes.
 
 ## Reproducibility ♻️
 
-- **Environment management**: Use conda or Docker to ensure reproducibility
+- **Environment management**: Use conda or Docker to ensure reproducibility when applicable
 - **Seed values**: Set and document random seeds
-- **Dependency pinning**: Specify exact versions in requirements
-- **Notebooks**: RMarkdwon or Jupyter. Consider using nbdev or similar for version control
-- **Parameters**: Separate parameters from code in config files
+- **Dependency management**: Specify exact versions in requirements
+- **Notebooks**: RMarkdwon/Quarto or Jupyter
 
-## Automation and Scripts
-
-- **Data processing**: Develop pipelines for standard data transformations
-- **Backup scripts**: Implement regular backups for non-GitHub data
-
-## Lab-Specific Considerations
+## Lab-Specific Considerations (To Do)
 
 - **Onboarding documents**: Create guides for new lab members
 - **Compute resources**: Document procedures for utilizing cluster/cloud resources
